@@ -50,8 +50,6 @@ This makes every project independent and easy to navigate.
 
 ## Notes
 
-## Notes
-
 - The projects are organized by topic, with the difficulty increasing gradually throughout the repository.
 - Some Python concepts and built-in features were learned but are not necessarily used in every project. They will be applied whenever they are appropriate.
 - The primary goal of this repository is to strengthen Python fundamentals through practical projects.

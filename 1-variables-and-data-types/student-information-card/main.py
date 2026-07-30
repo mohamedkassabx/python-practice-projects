@@ -1,0 +1,35 @@
+# ------- Student informations -------
+print("\n" + " Student Information ".center(40, "-"))
+first_name = input("First Name".ljust(30) + ": ").strip().capitalize()
+last_name = input("Last Name".ljust(30) + ": ").strip().capitalize()
+age = int(input("Age".ljust(30) + ": ").strip())
+height = float(input("Height(cm)".ljust(30) + ": ").strip())
+weight = float(input("Weight(kg)".ljust(30) + ": ").strip())
+university = input("University".ljust(30) + ": ").strip()
+faculty = input("Faculty".ljust(30) + ": ").strip()
+department = input("Department".ljust(30) + ": ").strip()
+academic_year = input("Academic Year".ljust(30) + ": ").strip()
+gpa = float(input("GPA".ljust(30) + ": ").strip())
+fav_language = input("Favorite Programming Language".ljust(30) + ": ").strip()
+python = input("Is Learning Python(yes/no)".ljust(30) + ": ").strip()
+
+# -------- print informations --------
+
+print("\n" + "=" * 50)
+print(" Student Profile Card ".center(50, "="))
+print("=" * 50 + "\n")
+
+print("- Student")
+print("Name".ljust(30) + f": {first_name:s} {last_name:s}")
+print("Age".ljust(30) + f": {age:d}" )
+print("Height".ljust(30) + f": {height:.1f}cm")
+print("Weight".ljust(30) + f": {weight:.1f}kg" + "\n")
+
+print("- Academic Information")
+print("University".ljust(30) + f": {university:s}")
+print("Faculty".ljust(30) + f": {faculty:s}")
+print("Department".ljust(30) + f": {department:s}")
+print("Academic Year".ljust(30) + f": {academic_year:s}")
+print("GPA".ljust(30) + f": {gpa:.2f}")
+print("Favorite Programming Language".ljust(30) + f": {fav_language:s}")
+print("Is Learning Python".ljust(30) + f": {python:s}")

@@ -58,3 +58,4 @@ This makes every project independent and easy to navigate.
 ## Purpose
 
 This repository serves as a record of my progress and demonstrates how my Python skills have developed over time through practical projects.
+
